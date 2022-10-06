@@ -12,7 +12,7 @@ pipeline {
     //Get the Code from GitHub Repo
     stage('CheckOutCode'){
       steps{
-        git branch: 'master',git credentialsId: 'a07dfd34-536c-46c7-a649-507167f7aaf4', url: 'https://github.com/kiranmai2323/jenkins-with-ansible.git' 
+        git branch: 'master',git credentialsId: '7dffcdbc-3ad3-4eb2-b277-52a4aa37bbd9', url: 'https://github.com/kiranmai2323/jenkins-with-ansible.git' 
       }
     }
      
